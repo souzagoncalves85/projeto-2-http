@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/templates/formulario.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <style>
+      body {
+        padding: 0;
+      }
+    </style>
+    <header>
+      <h1>Cadastro</h1>
+    </header>
+    <main>
+      <form method="POST" action="http://127.0.0.1:5000/result">
+        <label for="name">Nome:</label>
+        <input type="text" name="Nome" id="Nome" />
+        <label for="Idade">Idade:</label>
+        <input type="text" name="Idade" id="Idade" />
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
